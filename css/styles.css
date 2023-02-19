@@ -61,8 +61,14 @@ img {
     text-align: center;
 }
 /* HEADER */
-.header {
+.webp .header{
+    background-image: url(../img/banner.wep);
+}
+.webp .header{
     background-image: url(../img/banner.jpg);
+}
+.header {
+/* por el preformance lo coloque arriba por si no soporta el webp */
     height: 60rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -226,7 +232,11 @@ img {
 .campo {
     display: flex;
     margin-bottom: 2rem;
-
+}
+@media (max-width: 480px) {
+    .campo {
+        display: block;
+    }
 }
 .campo__label {
     flex: 0 0 9rem;
