@@ -1,2 +1,2 @@
 ## Blog de café 
-#esta pagina solo es para mi portafolio 
+#this page only in for my portafolio
